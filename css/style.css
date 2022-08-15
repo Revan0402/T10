@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1366px;
+    height:100%;
+}
+.main{ 
+    width: 1366px;
+    height: 100%;
+    background-size: 1366px;
+    background-image: url(https://wallpapersmug.com/download/1366x768/888c2a/beach-palm-tree-holiday.jpg);
+    background-repeat: no-repeat;
+}
+.up{
+    width: 1366px;
+    height: 50px;
+    background: white;
+}
+.upleft{
+    color: #546269;
+    width: 875px;
+    height: 50px;
+    padding: 0 0 0 20px;
+    float: left;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.upleft .one{
+    font-size: 25px;
+    font-family: "Segoe UI Black";
+    float: left;
+}
+.upleft .two{
+    padding: 2px 0 0 0;
+    font-size: 23px;
+    font-family: "Microsoft YaHei Light";
+    float: left;
+}
+.upright{
+    width: 403px;
+    height: 50px;
+    float: left;
+    display: flex;
+}
+.upright ul{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.upright ul li{
+    color: #919191;
+    margin: 5px;
+    font-family: "Consolas";
+    list-style-type: none;
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+}
+.center{
+    color: white;
+    padding: 150px 0;
+    font-size: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.center .first{
+    display: flex;
+    float: left;
+    font-family: "Segoe UI Black";
+}
+.center .second{
+    font-family: "Corbel Light";
+    color: #688392;
+}
+.center .third {
+    display: flex;
+    float: left;
+    font-family: "Segoe UI Black";
+}
+.down{
+    width: 1366px;
+    height:239px;
+    float: left;
+    background: white;
+}
+.downup{
+    padding: 0 0 5px 0;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 1366px;
+    height: 27px;
+}
+.down .uplft{
+    padding: 5px 4px 0 0;
+    float: left;
+    font-size: 25px;
+    font-family: "Yu Gothic UI Semibold";
+}
+.down .uprght{
+    padding: 5px 0 0 0;
+    float: left;
+    font-size: 25px;
+    font-family: "Segoe UI" ;
+}
+.downdouble i{
+    font-size: 35px;
+}
+.downdouble{
+    width: 100%;
+    height: 185px;
+    float: left;
+}
+.downdouble .left{
+    float: left;
+    width: 341px;
+    height: 185px;
+}
+.downdouble .cntrleft{
+    width: 341px;
+    float: left;
+    height: 185px;
+}
+.downdouble .cntrright{
+    width: 341px;
+    float: left;
+    height: 185px;
+}
+.downdouble .right{
+    width: 341px;
+    float: left;
+    height: 185px;
+}
+.downdouble .bir{
+    margin: 10px 70px 0 70px;
+    width: 200px;
+    height: 187px;
+}
+.downdouble .one{
+    margin:20px 0 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-image: url(https://wallpapersmug.com/download/1366x768/888c2a/beach-palm-tree-holiday.jpg);
+    border-radius: 100%;
+    background-position: 15%;
+}
+.downdouble .onedown{
+    width: 140px;
+    margin:0 0 0 32px;
+    box-sizing: border-box;
+    min-height: 50px;
+}
+.downdouble .two{
+    margin:20px 0 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-image: url(https://wallpapersmug.com/download/1366x768/888c2a/beach-palm-tree-holiday.jpg);
+    border-radius: 100%;
+    background-position: 36%;
+}
+.downdouble .twodown{
+    width: 140px;
+    margin:0 0 0 38px;
+    box-sizing: border-box;
+    min-height: 50px;
+}
+.downdouble .three{
+    margin:20px 0 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-image: url(https://wallpapersmug.com/download/1366x768/888c2a/beach-palm-tree-holiday.jpg);
+    border-radius: 100%;
+    background-position: 82%;
+}
+.downdouble .threedown{
+    width: 140px;
+    margin:0 0 0 53px;
+    box-sizing: border-box;
+    min-height: 50px;
+}
+.downdouble .four{
+    margin:20px 0 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-image: url(https://wallpapersmug.com/download/1366x768/888c2a/beach-palm-tree-holiday.jpg);
+    border-radius: 100%;
+    background-position: 99%;
+}
+.downdouble .fourdown{
+    width: 140px;
+    margin:0 0 0 45px;
+    box-sizing: border-box;
+    min-height: 50px;
+}
+.downdouble .title{
+    font-size: 15px;
+    font-family: "Yu Gothic UI Semibold";
+}
+.downdouble .lorem{
+    margin: 5px 0 0 0;
+    display: flex;
+    font-size: 15px;
+    font-family:"Segoe UI";
+    color: #688392;
+}
